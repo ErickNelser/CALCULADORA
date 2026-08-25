@@ -34,8 +34,8 @@ namespace CALCULADORA.JuegoDelCalamar
             Console.WriteLine("=========================");
             Console.WriteLine(nombrejuego);
             Console.WriteLine("=======================");
-            Console.Write("El premio total es:" + premiototal);
-            Console.Write("Cupos habilitados es:" + cupohabilitado);
+            Console.WriteLine("El premio total es:" + premiototal);
+            Console.WriteLine("Cupos habilitados es:" + cupohabilitado);
             Console.WriteLine("La edad minima es:" + edadminima + "años");
             Console.WriteLine("=======================");
 
@@ -59,9 +59,9 @@ namespace CALCULADORA.JuegoDelCalamar
 
             if (jugadorelegido == 1)
             {
-                Console.Write("Jugador seleccionado: " + jugador1);
+                Console.WriteLine("Jugador seleccionado: " + jugador1);
 
-                Console.Write("Ingrese la edad de " + jugador1 + ": ");
+                Console.WriteLine("Ingrese la edad de " + jugador1 + ": ");
                 edad = int.Parse(Console.ReadLine());
 
                 if (edad >= edadminima)
@@ -72,12 +72,13 @@ namespace CALCULADORA.JuegoDelCalamar
                 {
                     Console.WriteLine("ACCESO DENEGADO. " + jugador1 + " no puede competir.");
                 }
+                
             }
             else if (jugadorelegido == 2)
             {
-                Console.Write("Jugador seleccionado: " + jugador2  );
+                Console.WriteLine("Jugador seleccionado: " + jugador2);
 
-                Console.Write("Ingrese la edad de " + jugador2 + ": ");
+                Console.WriteLine("Ingrese la edad de " + jugador2 + ": ");
                 edad = int.Parse(Console.ReadLine());
 
                 if (edad >= edadminima)
@@ -89,11 +90,12 @@ namespace CALCULADORA.JuegoDelCalamar
                     Console.WriteLine("ACCESO DENEGADO. " + jugador2 + " no puede competir.");
                 }
             }
-            else if (jugadorelegido == 3)
-            {
-                Console.Write("Jugador seleccionado: " + jugador3);
+            else 
 
-                Console.Write("Ingrese la edad de " + jugador3 + ": ");
+            {
+                Console.WriteLine("Jugador seleccionado: " + jugador3);
+
+                Console.WriteLine("Ingrese la edad de " + jugador3 + ": ");
                 edad = int.Parse(Console.ReadLine());
 
                 if (edad >= edadminima)
@@ -129,7 +131,7 @@ namespace CALCULADORA.JuegoDelCalamar
                 Console.WriteLine("2) Estrella (medio)");
                 Console.WriteLine("3) Sombrilla (dificil)");
 
-                Console.Write("Figura elegida por: " + jugadorelegido);
+                Console.Write("Figura elegida");
                 figura = int.Parse(Console.ReadLine());
 
                 if (figura == 1)
