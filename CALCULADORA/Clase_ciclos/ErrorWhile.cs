@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CALCULADORA.Clase_ciclos
 {
-    internal class ErrorWhile
+    public class ErrorWhile
     {
         public static void Main()
         {
