@@ -17,6 +17,16 @@ namespace CALCULADORA.Clase_ciclos
                 Console.WriteLine("El numero se actualizo:" + num );
                 num++;
             }
+            Console.WriteLine("Fin");
+
+
+
+
+
+
+
+
+
         }
     }
 }
