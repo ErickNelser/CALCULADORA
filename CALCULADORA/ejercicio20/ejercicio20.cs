@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CALCULADORA.ejercicio20
 {
-    internal class ejercicio20
+    public class ejercicio20
     {
         public static void Main()
         {
@@ -127,4 +127,4 @@ namespace CALCULADORA.ejercicio20
         }
     }
 }
-}
+
